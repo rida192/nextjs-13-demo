@@ -4,7 +4,9 @@ import Header from "./Header";
 export default function RootLayout({ children }) {
   return (
     <html>
-      <head />
+      <head>
+        <title>Todos</title>
+      </head>
       <body>
         <Header />
         {children}

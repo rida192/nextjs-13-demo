@@ -1,7 +1,12 @@
 import React from "react";
+import TodosList from "./todosList";
 
 const Todos = () => {
-  return <div>Todos</div>;
+  return (
+    <div>
+      <h1>this where todos will be listed</h1>
+    </div>
+  );
 };
 
 export default Todos;
